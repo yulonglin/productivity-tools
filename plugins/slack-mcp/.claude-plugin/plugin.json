@@ -1,0 +1,15 @@
+{
+  "name": "slack-mcp",
+  "version": "1.0.0",
+  "description": "Slack extensions — reactions, usergroups, unreads (adds to Claude.ai Slack)",
+  "mcpServers": {
+    "slack": {
+      "command": "slack-mcp-server",
+      "args": ["--transport", "stdio"],
+      "env": {
+        "SLACK_TEAM_ID": "${SLACK_TEAM_ID}",
+        "SLACK_TOKEN": "${SLACK_TOKEN}"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "things-mcp",
+  "version": "0.1.0",
+  "description": "Things 3 task manager — all views, projects, tags, checklists",
+  "mcpServers": {
+    "things": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/yulonglin/things-mcp", "things-mcp"]
+    }
+  }
+}

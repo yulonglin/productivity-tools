@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "mac-tools",
+  "description": "Claude Code MCP plugin manifests for macOS apps",
+  "owner": { "name": "Yulong Lin" },
+  "metadata": { "version": "0.1.0" },
+  "plugins": [
+    {
+      "name": "things-mcp",
+      "source": "./plugins/things-mcp",
+      "description": "Things 3 task manager — all views, projects, tags, checklists",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["things3", "tasks", "macos"],
+      "license": "MIT"
+    },
+    {
+      "name": "slack-mcp",
+      "source": "./plugins/slack-mcp",
+      "description": "Slack extensions — reactions, usergroups, unreads (adds to Claude.ai Slack)",
+      "version": "1.0.0",
+      "category": "communication",
+      "keywords": ["slack", "messaging"],
+      "license": "MIT"
+    }
+  ]
+}
