@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "mac-tools",
-  "description": "Claude Code MCP plugin manifests for macOS apps",
+  "name": "productivity-tools",
+  "description": "Claude Code MCP plugins — Slack, Things 3, productivity tools",
   "owner": { "name": "Yulong Lin" },
   "metadata": { "version": "0.1.0" },
   "plugins": [
@@ -17,7 +17,7 @@
     {
       "name": "slack-mcp",
       "source": "./plugins/slack-mcp",
-      "description": "Slack extensions — reactions, usergroups, unreads (adds to Claude.ai Slack)",
+      "description": "Slack workspace — channels, threads, search, reactions, usergroups (korotovsky/slack-mcp-server)",
       "version": "1.0.0",
       "category": "communication",
       "keywords": ["slack", "messaging"],
