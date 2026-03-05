@@ -1,14 +1,13 @@
 {
   "name": "slack-mcp",
   "version": "1.0.0",
-  "description": "Slack extensions — reactions, usergroups, unreads (adds to Claude.ai Slack)",
+  "description": "Slack workspace — channels, threads, search, reactions, usergroups (korotovsky/slack-mcp-server)",
   "mcpServers": {
     "slack": {
       "command": "slack-mcp-server",
       "args": ["--transport", "stdio"],
       "env": {
-        "SLACK_TEAM_ID": "${SLACK_TEAM_ID}",
-        "SLACK_TOKEN": "${SLACK_TOKEN}"
+        "SLACK_MCP_XOXP_TOKEN": "${SLACK_MCP_XOXP_TOKEN}"
       }
     }
   }
