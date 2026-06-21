@@ -22,6 +22,15 @@
       "category": "communication",
       "keywords": ["slack", "messaging"],
       "license": "MIT"
+    },
+    {
+      "name": "bear-mcp",
+      "source": "./plugins/bear-mcp",
+      "description": "Bear notes — read/write via bearcli MCP server (macOS, Bear 2.8+)",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["bear", "notes", "macos"],
+      "license": "MIT"
     }
   ]
 }

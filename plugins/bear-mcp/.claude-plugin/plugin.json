@@ -1,0 +1,11 @@
+{
+  "name": "bear-mcp",
+  "version": "0.1.0",
+  "description": "Bear notes — read/write via bearcli MCP server (macOS, Bear 2.8+)",
+  "mcpServers": {
+    "bear": {
+      "command": "bearcli",
+      "args": ["mcp-server"]
+    }
+  }
+}
